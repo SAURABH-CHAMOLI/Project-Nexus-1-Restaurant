@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-logo">
+                Restaurn
+            </div>
+            <div class="nav-opt">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Service</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Contact</a>
+                    <% if(currUser)  {%>
+                        <a href="/logout">Logout</a>
+                    <% } %>
+                    <% if(!currUser) { %>
+                        <a href="/signup">Signup</a>
+                        <a href="/login">Login</a>
+                    <% } %> 
+            </div>
+        </div>
+
+        <div class="body-portion">
+            <div class="body-content">
+                <h1>Enjoy Our Delicious Meal</h1>
+                <p>Step into a world of culinary excellence and let us take your taste buds on a journey of unforgettable dining experiences.</p>
+                <button>BOOK A TABLE</button>
+            </div>
+
+            <div class="body-image">
+                <img src="/css/bowl2.jpg" alt="bowl">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

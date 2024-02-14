@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(66, 53, 66);
+}
+
+.container{
+    height:100vh;
+}
+
+.navbar{
+    height:80px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    padding:19px;
+}
+.nav-logo{
+    height:40px;
+    width:200px;
+    color:orange;
+    /* background-color: rgb(109, 191, 194); */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-opt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height:40px;
+    width:800px;
+    font-size: 20px;
+    /* background-color: rgb(81, 223, 112); */
+}
+.nav-opt a{
+    color:white;
+    text-decoration: none;
+}
+.nav-opt a:hover{
+    color:orange
+}
+
+.body-portion{
+    height:570px;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body-content{
+    height:300px;
+    width:500px;
+    padding: 5px;
+    /* background-color: burlywood; */
+}
+.body-content h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.body-content p{
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.body-content button{
+    height:40px;
+    width:130px;
+    border: 2px solid orange;
+    border-radius: 3px;
+    font-weight: 700;
+    color:white;
+    /* padding: 2px; */
+    background-color: orange;
+}
+.body-content button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:orange
+}
+
+.body-image{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    /* background-color: rgb(219, 139, 34); */
+}
+.body-image img{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    background-size: cover;
+}
